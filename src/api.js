@@ -1,0 +1,1 @@
+export const url="https://newsapi.org/v2/everything?q=tesla&from=2024-10-05&sortBy=publishedAt&apiKey=474289909ced43448731adb3d66905da"
