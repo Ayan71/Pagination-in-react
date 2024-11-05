@@ -45,6 +45,7 @@ const App = () => {
       <div>
         {currentItems?.map((article, index) => (
           <div className="datashow" key={index}>
+            <input placeholder="Give the tag name"/>
             <div>{firstIndex + index + 1}</div>
             <div>{article.author}</div>
             <div>{article.description}</div>
@@ -52,7 +53,7 @@ const App = () => {
         ))}
       </div>
 
-      <div>
+      <div className="bottom">
         <button onClick={handlePrev}>Previous</button>
         <span>Page {currentPage}</span>
         <button onClick={handleNext}>Next</button>

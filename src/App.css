@@ -18,7 +18,12 @@ padding: 3rem 5rem 3rem 5rem;
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.bottom{
+  display: flex;
+ justify-content: center;
+ gap: 20px;
+ padding: 1rem 0rem;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
